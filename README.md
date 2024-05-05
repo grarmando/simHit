@@ -31,7 +31,6 @@ git clone https://github.com/tu_usuario/simHit.git
 pip install PySide6
 pip install opencv-python
 python main.py
-
 ```
 
 
@@ -48,7 +47,7 @@ python main.py
 
 ## Contribuir
 
-Este proyecto es open source y agradecemos cualquier contribución:
+simHit es un proyecto open source y alentamos la participación de la comunidad. Si estás interesado en contribuir, por favor:
 
 - Fork el repositorio.
 - Crea una nueva rama.
@@ -56,16 +55,6 @@ Este proyecto es open source y agradecemos cualquier contribución:
 - Push a la rama.
 - Crea una nueva Pull Request.
 - Estamos ansisosos por ver tus propuestas.
-
-### Contribuir
-
-simHit es un proyecto open source y alentamos la participación de la comunidad. Si estás interesado en contribuir, por favor:
-
-- Haz un fork del repositorio.
-- Crea una nueva rama para tus modificaciones (git checkout -b mi-mejora).
-- Compromete tus cambios (git commit -am 'Añade alguna mejora').
-- Empuja la rama (git push origin mi-mejora).
-- Envía una pull request.
 
 ## Licencia
 
