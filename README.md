@@ -19,7 +19,7 @@ Para utilizar simHit, necesitas:
 
 - Python 3.x
 - PySide6
-- Arduino IDE
+- Arduino IDE (para realizar la carga del firmware, también puedes usar esptools)
 - Hardware compatible especificado en los diagramas de montaje
 
 ## Instalación
@@ -28,22 +28,34 @@ Clona este repositorio utilizando:
 
 ```
 git clone https://github.com/tu_usuario/simHit.git
-```
-
-Instala las dependencias necesarias:
-
-```
 pip install PySide6
-```
-
-## Configuración y Uso
-
-- Montaje del hardware: Sigue las instrucciones detalladas en el directorio hardware para montar el simulador.
-- Software: Navega al directorio del proyecto y ejecuta:
-
-```
+pip install opencv-python
 python main.py
+
 ```
+
+
+
+## Estructura del Proyecto
+
+- Electrónica: Acá encontraras los esquematicos en Kicad para el diseño y construcción de la placa
+- 3d model: acá encontraras los modelos 3d
+- Firmware: Acá encontraras el firmware en Arduino para ESP8266
+- Software: Aca encontrarás el software en para el PC
+- BOM: acá encontraras los suministros que debes adquirir
+
+
+
+## Contribuir
+
+Este proyecto es open source y agradecemos cualquier contribución:
+
+- Fork el repositorio.
+- Crea una nueva rama.
+- Haz tus cambios y commit.
+- Push a la rama.
+- Crea una nueva Pull Request.
+- Estamos ansisosos por ver tus propuestas.
 
 ### Contribuir
 
@@ -60,4 +72,4 @@ simHit es un proyecto open source y alentamos la participación de la comunidad.
 Este proyecto está licenciado bajo la Licencia MIT - para más detalles consulta el archivo LICENSE.md.
 Contacto
 
-Para más información sobre simHit, puedes contactar a
+Para más información sobre simHit, puedes contactar a david.avila@uach.cl
