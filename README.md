@@ -11,7 +11,11 @@ simHit es un proyecto de simulador open source destinado a revolucionar la educa
 ## Tecnología Utilizada
 
 - Electrónica controlada por Arduino para simular movimientos cefálicos.
-- Software desarrollado en Python 3.x con PySide6 para la interfaz gráfica.
+- Software desarrollado en Python 3.x con PySide6 para la interfaz gráfica
+  ##Partes del equipo
+  ![2472-12](https://github.com/grarmando/simHit/assets/163556012/af7f4946-43f8-4cdb-88b7-9b7d2e243838)
+![ESP8266_Pinout_12-E-1024](https://github.com/grarmando/simHit/assets/163556012/5fd8b787-6d6b-4442-b967-312faedc3fe6)
+
 
 ## Requisitos
 
