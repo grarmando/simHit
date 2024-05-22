@@ -7,21 +7,33 @@ simHit es un proyecto de simulador open source destinado a revolucionar la educa
 - **Feedback inmediato**: Permite a los estudiantes hacer ajustes en tiempo real, mejorando el aprendizaje y la precisión de la técnica.
 - **Accesibilidad**: Como herramienta open source y de bajo coste, simHit es accesible para instituciones educativas de todo nivel.
 - **Fácil de usar**: Interfaz intuitiva diseñada para facilitar el aprendizaje y la práctica del impulso cefálico.
+- **Experiencia similar**:El equipo entrega una experiencia de uso simil a la de un equipo VHIT convencional.
 
 ## Tecnología Utilizada
 
 - Electrónica controlada por Arduino para simular movimientos cefálicos.
 - Software desarrollado en Python 3.x con PySide6 para la interfaz gráfica
+- ESP8266
+- IMU bno055
   ***
 ## Partes del equipo
-  
-  ![Diagrama de flujo(2)](https://github.com/grarmando/simHit/assets/163556012/8d4ab033-2eae-4ee6-925a-9c8e3f6d9708)
-  
-  ![2472-12](https://github.com/grarmando/simHit/assets/163556012/af7f4946-43f8-4cdb-88b7-9b7d2e243838) 
-  sensor
-![ESP8266_Pinout_12-E-1024](https://github.com/grarmando/simHit/assets/163556012/5fd8b787-6d6b-4442-b967-312faedc3fe6) 
-minicontrolador
+Consta de dos unidades principales: En primer lugar, los sensores, los cuales  pueden ser múltiples y cada uno funciona como una unidad independiente, mientras que el receptor se conecta directamente al computador. Ambos componentes se comunican entre sí mediante Wi-Fi y un protocolo TCP. El módulo de cada unidad corresponde a un ESP8266. En el caso de los sensores, están conectados a un IMU bno055. La información recogida por los sensores es transmitida al receptor, que a su vez envía los datos a un programa de diseño en Python para su procesamiento.
+![Diagrama de flujo(2)](https://github.com/grarmando/simHit/assets/163556012/8d4ab033-2eae-4ee6-925a-9c8e3f6d9708)
+  ![WhatsApp Image 2024-05-22 at 12 03 12](https://github.com/grarmando/simHit/assets/163556012/127ceb29-98ec-4d2c-a2f0-1f2393daa1e1)
+En esta imagen podemos observar los componentes que conforman el SIMHIT fundamentales para la placa:
+-Puerto Micro USB
+-Condensadores Electrolíticos
+-Cables de Conexión
+-Circuitos Integrados (IC)    	
+-Regulador de Voltaje    	
+-Resistencias    	
+-Capacitores Cerámicos    
+-Conector de Pines
+-Interruptor (Switch)
 
+## interfaz
+
+Esta interfaz consta de dos módulos, uno relacionado al funcionamiento de el equipo que manipulara el estudiante, el cual entrega retroalimentación de carácter sonoro y visual del  proceso ejecutado, mientras que el segundo módulo está asociado a la aplicación integrada, la cual contempla gráficas y valores objetivos de los movimientos registrados por el equipo. Ambos modelos convergen en el mismo propósito: proporcionar una retroalimentación inmediata. Estas características permiten objetivar, acelerar y unificar el aprendizaje de estas técnicas.
 
 ## Requisitos
 
