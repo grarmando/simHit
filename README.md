@@ -19,17 +19,7 @@ simHit es un proyecto de simulador open source destinado a revolucionar la educa
 ## Partes del equipo
 Consta de dos unidades principales: En primer lugar, los sensores, los cuales  pueden ser múltiples y cada uno funciona como una unidad independiente, mientras que el receptor se conecta directamente al computador. Ambos componentes se comunican entre sí mediante Wi-Fi y un protocolo TCP. El módulo de cada unidad corresponde a un ESP8266. En el caso de los sensores, están conectados a un IMU bno055. La información recogida por los sensores es transmitida al receptor, que a su vez envía los datos a un programa de diseño en Python para su procesamiento.
 ![Diagrama de flujo(2)](https://github.com/grarmando/simHit/assets/163556012/8d4ab033-2eae-4ee6-925a-9c8e3f6d9708)
-  ![WhatsApp Image 2024-05-22 at 12 03 12](https://github.com/grarmando/simHit/assets/163556012/127ceb29-98ec-4d2c-a2f0-1f2393daa1e1)
-En esta imagen podemos observar los componentes que conforman el SIMHIT fundamentales para la placa:
--Puerto Micro USB
--Condensadores Electrolíticos
--Cables de Conexión
--Circuitos Integrados (IC)    	
--Regulador de Voltaje    	
--Resistencias    	
--Capacitores Cerámicos    
--Conector de Pines
--Interruptor (Switch)
+
 
 ## interfaz
 
@@ -60,6 +50,19 @@ python main.py
 ## Estructura del Proyecto
 
 - Electrónica: Acá encontraras los esquematicos en Kicad para el diseño y construcción de la placa
+-   ![WhatsApp Image 2024-05-22 at 12 03 12](https://github.com/grarmando/simHit/assets/163556012/127ceb29-98ec-4d2c-a2f0-1f2393daa1e1)
+En esta imagen podemos observar los componentes que conforman el SIMHIT fundamentales para la placa
+- ESP8266
+- bmo055
+- Puerto Micro USB
+- Condensadores Electrolíticos
+- Cables de Conexión
+- Circuitos Integrados (IC)    	
+- Regulador de Voltaje    	
+- Resistencias    	
+- Capacitores Cerámicos    
+- Conector de Pines
+- Interruptor (Switch)
 - 3d model: acá encontraras los modelos 3d
 - Firmware: Acá encontraras el firmware en Arduino para ESP8266
 - Software: Aca encontrarás el software en para el PC
