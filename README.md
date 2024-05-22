@@ -11,9 +11,10 @@ simHit es un proyecto de simulador open source destinado a facilitar la enseñan
 
 ## Tecnología Utilizada
 
-El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g el cual debe tener como requisito no constar de cristales, para este caso puntual los cristales deben estar insertos, lo cual encarece un poco el sistema, luego a un puerto serial que transmite la información en 115200 esto es integrago por el controlador que es el ESP8266 para comunicarse al IMU bno055 se utiliza el protocolo I2C.Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor bno055 se encuentra descontinuado pero es posible utilizar el MPU950 lo importante es que posea 9 ejes.
- 
-- ![Block Diagram Template](https://github.com/grarmando/simHit/assets/163556012/77ea4546-1553-48b5-bfa7-8c5567481f89)
+El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse al IMU bno055 se utiliza el protocolo I2C.Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor bno055 se encuentra descontinuado pero es posible utilizar el MPU950 lo importante es que posea 9 ejes.
+ ![Block Diagram Template(1)](https://github.com/grarmando/simHit/assets/163556012/0ca3ec35-2cb6-4595-a9ad-aaabfea30941)
+
+
 
   ***
 ## Partes del equipo
@@ -23,7 +24,7 @@ El hardware del equipo consta de un conector usb el cual pasa por un convertidor
 
 
 - **puerto serial**
-- **controlador ESP8266**
+- **microcontrolador ESP8266**
 - ![ESP8266_Pinout_12-E-1024](https://github.com/grarmando/simHit/assets/163556012/89c5a2a2-0fc7-42c6-9651-f76b07c95213)
 - **conexión I2C**
 - ![WhatsApp Image 2024-03-27 at 13 08 45](https://github.com/grarmando/simHit/assets/163556012/ee20c2c7-bb9d-4bf2-9f42-6480c185cc7c)
