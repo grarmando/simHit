@@ -19,18 +19,17 @@ El hardware del equipo consta de un conector usb el cual pasa por un convertidor
 ## Partes del equipo
 - **conector usb**
 - **convertidor CH340g**
-![Sin título](https://github.com/grarmando/simHit/assets/163556012/93d834d4-ab14-4ae6-ab53-34dbf1eb2f59)
+- ![Sin título](https://github.com/grarmando/simHit/assets/163556012/4b2f4bce-e92a-4a6b-a658-4a4ef70f2661)
+
+
 - **puerto serial**
 - **controlador ESP8266**
-![ESP8266_Pinout_12-E-1024](https://github.com/grarmando/simHit/assets/163556012/ab98a727-0e53-42d3-90ec-4460c224da61)
+- ![ESP8266_Pinout_12-E-1024](https://github.com/grarmando/simHit/assets/163556012/89c5a2a2-0fc7-42c6-9651-f76b07c95213)
 - **conexión I2C**
-![WhatsApp Image 2024-03-27 at 13 08 45](https://github.com/grarmando/simHit/assets/163556012/09ba0b41-f713-4d69-9106-693a59fda4ca)
+- ![WhatsApp Image 2024-03-27 at 13 08 45](https://github.com/grarmando/simHit/assets/163556012/ee20c2c7-bb9d-4bf2-9f42-6480c185cc7c)
+
 - **sensor IMU**
-![2472-12](https://github.com/grarmando/simHit/assets/163556012/cc03b35f-94cd-4f4c-a8bf-9ed36edc80af)
-
-  
-
-
+- ![2472-12](https://github.com/grarmando/simHit/assets/163556012/7faa55fc-8fe2-4ff8-978b-bbf3a5db4e96)
 
 
 ## interfaz
