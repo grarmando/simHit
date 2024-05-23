@@ -12,7 +12,8 @@ simHit es un proyecto de simulador open source destinado a facilitar la enseñan
 ## Tecnología Utilizada
 
 El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse al IMU bno055 se utiliza el protocolo I2C.Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor bno055 se encuentra descontinuado pero es posible utilizar el MPU950 lo importante es que posea 9 ejes.
- ![Block Diagram Template(1)](https://github.com/grarmando/simHit/assets/163556012/0ca3ec35-2cb6-4595-a9ad-aaabfea30941)
+![Block Diagram Template(2)](https://github.com/grarmando/simHit/assets/163556012/0371e664-28df-436f-b323-d7a737524fc3)
+
 
 
 
