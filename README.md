@@ -9,10 +9,16 @@ simHit es un proyecto de simulador open source destinado a facilitar la enseñan
 - **Fácil de usar**: Interfaz intuitiva diseñada para facilitar el aprendizaje y la práctica del impulso cefálico.
 - **Experiencia similar**:El equipo entrega una experiencia de uso simil a la de un equipo VHIT convencional por un precio mucho menor.
 
+***
+## Apartado educaativo
+
+El aprendizaje en la educación médica suele ceñirse a la piramide de miller que se centra en la adquisición del conocimiento o el saber, seguido del saber como que se suele demuestrar a traves de casos clinicos y luego está el demostrar que es donde toma relevancia este proyecto SIMHIT enfocado en crear simulaciones lo más acercadas al ultimo eslavón de la pirámide que es el hacer y que habitualmente es muy alejada de las experiencias en simulaciones debido al poco acceso a equipos clinicos en aulas educativas y la poca objetividad de algunas técnicas.
+
 ## Tecnología Utilizada
 
 El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse mediante el protocolo I2C con el IMU 9DOF, .Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor 9DOF se encuentra descontinuado pero es posible utilizar el  BNO055, BNO080, MPU9250, BMP085, lo importante es que posea 9 ejes.
-![Block Diagram Template(2)](https://github.com/grarmando/simHit/assets/163556012/0371e664-28df-436f-b323-d7a737524fc3)
+![Block Diagram Template(3)](https://github.com/grarmando/simHit/assets/163556012/36f10f96-244a-4498-96f0-a60ff2b0fa72)
+
 
 
 
