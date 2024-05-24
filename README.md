@@ -10,7 +10,7 @@ simHit es un proyecto de simulador open source destinado a facilitar la enseñan
 - **Experiencia similar**:El equipo entrega una experiencia de uso simil a la de un equipo VHIT convencional por un precio mucho menor.
 
 ***
-## Apartado educaativo
+## Apartado educativo
 
 El aprendizaje en la educación médica suele ceñirse a la piramide de miller que se centra en la adquisición del conocimiento o el saber, seguido del saber como que se suele demuestrar a traves de casos clinicos y luego está el demostrar que es donde toma relevancia este proyecto SIMHIT enfocado en crear simulaciones lo más acercadas al ultimo eslavón de la pirámide que es el hacer y que habitualmente es muy alejada de las experiencias en simulaciones debido al poco acceso a equipos clinicos en aulas educativas y la poca objetividad de algunas técnicas.
 
