@@ -11,7 +11,7 @@ simHit es un proyecto de simulador open source destinado a facilitar la enseñan
 
 ## Tecnología Utilizada
 
-El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse al IMU bno055 se utiliza el protocolo I2C.Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor bno055 se encuentra descontinuado pero es posible utilizar el MPU950 lo importante es que posea 9 ejes.
+El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse mediante el protocolo I2C con el IMU 9DOF, .Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor 9DOF se encuentra descontinuado pero es posible utilizar el  BNO055, BNO080, MPU9250, BMP085, lo importante es que posea 9 ejes.
 ![Block Diagram Template(2)](https://github.com/grarmando/simHit/assets/163556012/0371e664-28df-436f-b323-d7a737524fc3)
 
 
@@ -66,7 +66,7 @@ python main.py
 - 3d model: acá encontraras los modelos 3d
 - Firmware: Acá encontraras el firmware en Arduino para ESP8266
 - Software: Aca encontrarás el software en para el PC
-- BOM: acá encontraras los suministros que debes adquirir: a parte de la tecnología utilizada es necesario disponer de una montura para poder ensamblar con el SIMHIT en este caso se tomo la desición de utilizar unas gafas, para dar más similitud al VHIT, se requiere de una impresora 3d para crear la caja que almacene dicho sistema, tambien una pantalla oled que se conecte al microcontrolador mediante  I2C es necesaria para poder hacer una retroalimentación más gráfica.
+- BOM: a parte de la tecnología utilizada es necesario disponer de una montura para poder ensamblar con el SIMHIT en este caso se tomo la desición de utilizar unas gafas que posean una sujeción segura y firme en la cabeza,así para poder dar más similitud al VHIT, se requiere de una impresora 3d para crear la caja que almacene dicho sistema, tambien una pantalla oled que se conecte al microcontrolador mediante  I2C es necesaria para poder hacer una retroalimentación más gráfica.
 
 
 
