@@ -16,8 +16,10 @@ El aprendizaje en la educación médica suele ceñirse a la piramide de miller q
 
 ## Tecnología Utilizada
 
-El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse mediante el protocolo I2C con el IMU 9DOF, .Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor 9DOF se encuentra descontinuado pero es posible utilizar el  BNO055, BNO080, MPU9250, BMP085, lo importante es que posea 9 ejes.
-![Block Diagram Template(3)](https://github.com/grarmando/simHit/assets/163556012/36f10f96-244a-4498-96f0-a60ff2b0fa72)
+El hardware del equipo consta de un conector usb el cual pasa por un convertidor de usb a serial ch340g , luego a un puerto serial que transmite la información en 115200 esto es integrado por el microcontrolador que es el ESP8266 para comunicarse mediante el protocolo I2C con el IMU 9DOF, .Hací es posible obtener la información del sensor integrada en los planos yaw, pitch y roll que es imprimida cada 10ms. Cabe mencionar que el sensor 9DOF se encuentra descontinuado pero es posible utilizar el  BNO055, BNO080, MPU9250, BMP085, lo importante es que posea 9 ejes
+![Block Diagram Template(4)](https://github.com/grarmando/simHit/assets/163556012/3156e170-5c14-4dfe-b4f3-c39b8e41ca58)
+
+
 
 
 
