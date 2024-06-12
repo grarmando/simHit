@@ -12,7 +12,7 @@ simHit es un proyecto de simulador open source destinado a facilitar la enseñan
 ***
 ## Apartado educativo
 
-El aprendizaje en la educación médica suele ceñirse a la piramide de miller que se centra en la adquisición del conocimiento o el saber, seguido del saber como que se suele demuestrar a traves de casos clinicos y luego está el demostrar que es donde toma relevancia este proyecto SIMHIT enfocado en crear simulaciones lo más acercadas al ultimo eslavón de la pirámide que es el hacer y que habitualmente es muy alejada de las experiencias en simulaciones debido al poco acceso a equipos clinicos en aulas educativas y la poca objetividad de algunas técnicas.
+El aprendizaje en la educación médica suele ceñirse a la piramide de miller que se centra en la adquisición del conocimiento o el saber, seguido del saber como que se suele evaluar a traves de casos clinicos y luego está el demostrar que es donde toma relevancia este proyecto SIMHIT enfocado en crear simulaciones lo más acercadas al ultimo eslavón de la pirámide que es el hacer y que habitualmente es muy alejada de las experiencias en simulaciones debido al poco acceso a equipos clinicos en aulas educativas y la poca objetividad de algunas técnicas.
 
 ## Tecnología Utilizada
 
@@ -44,7 +44,7 @@ El hardware del equipo consta de un conector usb el cual pasa por un convertidor
 
 ## Firmware
 
-Este firmware está diseñado para interactuar con una placa Arduino(ESP8266) que integra sensores IMU y una pantalla OLED. Proporciona funcionalidades para la lectura de datos de los sensores, control de LEDs , láser, y visualización de información en la pantalla OLED.
+Este firmware está diseñado para interactuar con un microcontrolador (ESP8266)  que integra sensores IMU(9dof) y una pantalla OLED. Proporciona funcionalidades para la lectura de datos de los sensores, control de LEDs , láser, y visualización de información en la pantalla OLED.
 
  Requisitos:
 - Placa Arduino compatible (microcontrolador ESP8266)
