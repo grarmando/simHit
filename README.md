@@ -42,6 +42,34 @@ El hardware del equipo consta de un conector usb el cual pasa por un convertidor
 - ![2472-12](https://github.com/grarmando/simHit/assets/163556012/7faa55fc-8fe2-4ff8-978b-bbf3a5db4e96)
 
 
+## Firmware
+
+Este firmware está diseñado para interactuar con una placa Arduino(ESP8266) que integra sensores IMU y una pantalla OLED. Proporciona funcionalidades para la lectura de datos de los sensores, control de LEDs , láser, y visualización de información en la pantalla OLED.
+
+ Requisitos:
+- Placa Arduino compatible (microcontrolador ESP8266)
+- Sensores IMU 9DOF (por ejemplo, BNO055)
+- Pantalla OLED compatible (por ejemplo, SSD1306)
+- IDE de Arduino con las bibliotecas necesarias instaladas
+
+Configuración:
+- Conecta los sensores IMU y la pantalla OLED a los pines correspondientes de la placa Arduino.
+- Asegúrate de haber instalado las bibliotecas necesarias en tu IDE de Arduino.
+
+Uso:
+- Sube el firmware a tu placa Arduino.
+- Abre el monitor serial para interactuar con el firmware.
+- Envía comandos seriales para controlar los LEDs, láser, y para visualizar información en la pantalla OLED.
+
+Comandos Seriales:
+- *L[pin][estado]*: Controla el estado de los LEDs y el láser. [pin] es el número de pin del dispositivo y [estado] puede ser "APAGADO" o "ENCENDIDO".
+- *IMU[estado]*: Controla la lectura de datos de la IMU. [estado] puede ser "APAGAR", "ENCENDER" o "CALIBRAR".
+- *O[texto]*: Muestra un texto en la pantalla OLED.
+- *BAR[porcentaje]*: Dibuja una barra de progreso en la pantalla OLED con el porcentaje especificado.
+- *HOLA*: Responde con un saludo desde el firmware.
+
+
+
 ## interfaz
 
 Esta interfaz consta de dos módulos, uno relacionado al funcionamiento de el equipo que manipulara el estudiante, el cual entrega retroalimentación de carácter sonoro y visual del  proceso ejecutado, mientras que el segundo módulo está asociado a la aplicación integrada, la cual contempla gráficas y valores objetivos de los movimientos registrados por el equipo. Ambos modelos convergen en el mismo propósito: proporcionar una retroalimentación inmediata. Estas características permiten objetivar, acelerar y unificar el aprendizaje de estas técnicas.
